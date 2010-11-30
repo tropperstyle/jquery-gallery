@@ -1,0 +1,21 @@
+.ui-gallery { position: absolute; z-index: 100; overflow: visible; padding: 15px; }
+.ui-gallery .ui-gallery-container { position: relative; width: 100%; height: 100%; }
+.ui-gallery .ui-gallery-container .ui-gallery-close { position: absolute; top: -12px; right: -12px; height: 30px; width: 30px; background: transparent url(images/close.png); z-index: 1001; cursor: pointer; }
+.ui-gallery .ui-gallery-container .ui-gallery-content { width: 100%; height: 100%; background: black; }
+.ui-gallery .ui-gallery-container .ui-gallery-content img { width: 100%; height: 100%; }
+.ui-gallery .ui-gallery-container .ui-gallery-information { display: none; position: absolute; bottom: 0; width: 100%; height: auto; background: transparent url(/images/pngs/1x1/000/60.png) repeat scroll left top; border-top: 1px solid black; text-align: center; }
+.ui-gallery .ui-gallery-container .ui-gallery-information .ui-gallery-title { font-size: 16px; font-family: "Trebuchet MS", Tahoma, Arial, serif; color: white; padding: 2px 0; }
+.ui-gallery .ui-gallery-container .ui-gallery-information .ui-gallery-chooser img { max-width: 80px; max-height: 80px; padding: 4px; }
+.ui-gallery .ui-gallery-container .ui-gallery-information .ui-gallery-chooser img:hover { cursor: pointer; background: transparent url(/images/pngs/1x1/AAA/50.png) repeat scroll left top; }
+.ie .ui-gallery .ui-gallery-container .ui-gallery-information .ui-gallery-chooser img:hover { background-color: #aaaaaa; }
+.ui-gallery .ui-gallery-container .ui-gallery-shadows div { position: absolute; }
+.ui-gallery .ui-gallery-container .ui-gallery-shadows .ui-gallery-shadow-top { top: -18px; left: 0; width: 100%; height: 18px; background: transparent url(images/shadow/top.png) repeat-x; }
+.ui-gallery .ui-gallery-container .ui-gallery-shadows .ui-gallery-shadow-corder-top-right { top: -18px; right: -13px; width: 13px; height: 18px; background: transparent url(images/shadow/corner-top-right.png) no-repeat; }
+.ui-gallery .ui-gallery-container .ui-gallery-shadows .ui-gallery-shadow-right { top: 0; right: -13px; height: 100%; width: 13px; background: transparent url(images/shadow/right.png) repeat-y; }
+.ui-gallery .ui-gallery-container .ui-gallery-shadows .ui-gallery-shadow-corder-bottom-right { bottom: -18px; right: -13px; width: 13px; height: 18px; background: transparent url(images/shadow/corner-bottom-right.png) no-repeat; }
+.ui-gallery .ui-gallery-container .ui-gallery-shadows .ui-gallery-shadow-bottom { bottom: -18px; left: 0; width: 100%; height: 18px; background: transparent url(images/shadow/bottom.png) repeat-x; }
+.ui-gallery .ui-gallery-container .ui-gallery-shadows .ui-gallery-shadow-corder-bottom-left { bottom: -18px; left: -13px; width: 13px; height: 18px; background: transparent url(images/shadow/corner-bottom-left.png) no-repeat; }
+.ui-gallery .ui-gallery-container .ui-gallery-shadows .ui-gallery-shadow-left { left: -13px; top: 0; height: 100%; width: 13px; background: transparent url(images/shadow/left.png) repeat-y; }
+.ui-gallery .ui-gallery-container .ui-gallery-shadows .ui-gallery-shadow-corder-top-left { top: -18px; left: -13px; width: 13px; height: 18px; background: transparent url(images/shadow/corner-top-left.png) no-repeat; }
+
+.ui-gallery-loading { background: black url(/images/loading_icons/loading_dark_transparent.gif) no-repeat center center; position: absolute; z-index: 1; margin: 15px; }
